@@ -1,11 +1,17 @@
-require "test_helper"
+# frozen_string_literal: true
 
-class Hello::World::RubygemsTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::Hello::World::Rubygems::VERSION
-  end
+require 'test_helper'
 
-  def test_alwaysTrue
-    assert_equal 1, 1
+module Hello
+  module World
+    class RubygemsTest < Minitest::Test
+      def test_that_it_has_a_version_number
+        refute_nil ::Hello::World::Rubygems::VERSION
+      end
+
+      def test_always_true
+        assert_equal 1, 1
+      end
+    end
   end
 end

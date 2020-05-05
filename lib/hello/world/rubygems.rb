@@ -1,4 +1,6 @@
-require "hello/world/rubygems/version"
+# frozen_string_literal: true
+
+require 'hello/world/rubygems/version'
 
 module Hello
   module World
