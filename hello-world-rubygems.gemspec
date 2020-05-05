@@ -5,18 +5,18 @@ require "hello/world/rubygems/version"
 Gem::Specification.new do |spec|
   spec.name          = "hello-world-rubygems"
   spec.version       = Hello::World::Rubygems::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["n13-org", "KargWare"]
+  spec.email         = ["rubygems.org@n13.org"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A hello world gem project for rubygems.org}
+  spec.description   = %q{A `hello-world` gem, written in ruby, including tests (minitest), Rakefile and GitHub Actions to publish a package to rubygems.org}
+  spec.homepage      = "https://github.com/n13org/hello-world-rubygems"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/n13org/hello-world-rubygems"
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
