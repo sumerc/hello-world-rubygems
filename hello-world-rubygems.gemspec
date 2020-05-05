@@ -12,9 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A `hello-world` gem, written in ruby, including tests (minitest), Rakefile and GitHub Actions to publish a package to rubygems.org}
   spec.homepage      = "https://github.com/n13org/hello-world-rubygems"
   spec.license       = "MIT"
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-
+  
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/n13org/hello-world-rubygems"
   spec.metadata["changelog_uri"] = "https://github.com/n13org/hello-world-rubygems/blob/master/CHANGELOG.md"
