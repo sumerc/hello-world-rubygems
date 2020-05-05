@@ -1,8 +1,14 @@
+# Do NOT put your Gemfile.lock under VC for gems (https://stackoverflow.com/questions/4151495/should-gemfile-lock-be-included-in-gitignore)
+Gemfile.lock
+
+# Tests
+/coverage/
+/spec/reports/
+
+# Cache and Temp files
 /.bundle/
 /.yardoc
 /_yardoc/
-/coverage/
 /doc/
 /pkg/
-/spec/reports/
 /tmp/
