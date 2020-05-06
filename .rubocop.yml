@@ -14,6 +14,8 @@ Layout/SpaceAroundMethodCallOperator:
 
 Lint/RaiseException:
   Enabled: false
+Lint/ScriptPermission:
+  Enabled: false
 Lint/StructNewOverride:
   Enabled: false
 
