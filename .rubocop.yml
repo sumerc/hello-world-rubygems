@@ -9,41 +9,31 @@ AllCops:
     - Rakefile
     - Gemfile
 
-  Layout/LineLength:
-    Enabled: false
-  Layout/SpaceAroundMethodCallOperator:
-    Enabled: false
-
-  Lint/RaiseException:
-    Enabled: false
-  Lint/StructNewOverride:
+Layout/SpaceAroundMethodCallOperator:
   Enabled: false
 
-  Metrics/AbcSize:
-    Enabled: false
-  Metrics/ClassLength:
-    Enabled: false
-  Metrics/MethodLength:
-    Enabled: false
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
 
-  Naming/FileName:
-    Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
 
-  Style/ExponentialNotation:
-    Enabled: false  
-  Style/HashEachMethods:
-    Enabled: true
-  Style/HashTransformKeys:
-    Enabled: true
-  Style/HashTransformValues:
-    Enabled: true
-  Style/WordArray:
-    Enabled: false
+Naming/FileName:
+  Enabled: false
 
-  
-  
-
-  
-  
-
-  
+Style/ExponentialNotation:
+  Enabled: false  
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/WordArray:
+  Enabled: false
